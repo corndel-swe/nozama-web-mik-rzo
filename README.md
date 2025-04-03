@@ -35,20 +35,20 @@ experience.
 
 ### Identify and document problems
 
-- [ ] List all the design, accessibility, and technical issues you find in the
+- [x] List all the design, accessibility, and technical issues you find in the
       provided code.
 
 ### Refactor for maintainability
 
-- [ ] Remove inline CSS and use CSS files.
+- [x] Remove inline CSS and use CSS files.
 
-- [ ] Replace hardcoded values with custom properties.
+- [x] Replace hardcoded values with custom properties.
 
 ### Make it consistent
 
-- [ ] Make a simple design system and apply it to the page.
+- [x] Make a simple design system and apply it to the page.
 
-- [ ] Use custom properties to create predefined values such as
+- [x] Use custom properties to create predefined values such as
       `--padding-1: 4px` and `--padding-2: 8px` and so on.
 
 ### Improve accessibility
@@ -57,11 +57,11 @@ experience.
 
 - [ ] Ensure all interactive elements are keyboard accessible.
 
-- [ ] Test and fix colour contrast issues.
+- [x] Test and fix colour contrast issues.
 
 ### Make it responsive
 
-- [ ] Use Flexbox or CSS Grid for layout.
+- [x] Use Flexbox or CSS Grid for layout.
 
 - [ ] Add
       [media queries](https://tech-docs.corndel.com/html-css/media-queries.html)
