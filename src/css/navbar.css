@@ -37,8 +37,7 @@
 
 .navbar-items a {
     text-decoration: none;
-    color: gray;
-    color: gray;
+    color: var(--secondary);
 }
 #faq{
     text-align: center;
