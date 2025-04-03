@@ -6,7 +6,9 @@
     <title>Inconsistent Product Page</title>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/css/navbar.css"/>
-    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="src/main.js" defer></script>
   </head>
   <body>
     <header class="topNav">
@@ -101,51 +103,56 @@
         <h2>
           Frequently Asked Questions
         </h2>
-        <div>
-          <h3>1. What is the return policy?</h3>
-          <p>
-            We offer a 30-day return policy. Please ensure the item is in its
-            original condition.
-          </p>
-        </div>
-
-        <div>
-          <h3>
-            2. How long does shipping take?
-          </h3>
-          <p>
-            Shipping typically takes 5-7 business days. Expedited options are
-            available at checkout.
-          </p>
-        </div>
-
-        <div>
-          <h3>
-            3. Do you offer international shipping?
-          </h3>
-          <p>
-            Yes, we ship internationally. Additional charges may apply.
-          </p>
-        </div>
-
-        <div>
-          <h3>4. Can I track my order?</h3>
-          <p>
-            Yes, tracking information will be provided via email once your order
-            is shipped.
-          </p>
-        </div>
-
-        <div>
-          <h3>5. How can I contact customer support?</h3>
-          <p>
-            You can reach us at
-            <a href="mailto:support@example.com"
-              >support@example.com</a
-            >.
-          </p>
-        </div>
       </section>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is the return policy?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  We offer a 30-day return policy. Please ensure the item is in its
+                  original condition.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How long does shipping take?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Shipping typically takes 5-7 business days. Expedited options are
+                  available at checkout.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Do you offer international shipping?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  You can reach us at
+                  <a href="mailto:support@example.com"
+                  >support@example.com</a
+                  >.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
     </main>
   </body>
 </html>
