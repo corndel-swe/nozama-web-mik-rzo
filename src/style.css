@@ -25,9 +25,25 @@ header {
   padding: var(--padding-3);
 }
 
+#recommended-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#recommended-products > h1 {
+  width: 100%;
+}
+
 .product {
   border: 1px solid black;
   margin: var(--margin-3);
   padding: var(--padding-3);
-  width: 300px; /* Not responsive */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product > img {
+  width: 100%;
 }
