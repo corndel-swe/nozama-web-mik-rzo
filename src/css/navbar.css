@@ -1,28 +1,9 @@
-:root {
-    --primary:  #eaddcf;
-    --secondary: #ff8e3c;
-    --highlight: #d9376e;
-    --ff: Helvetica, Arial, sans-serif;
-    --padding-1: 4px;
-    --padding-2: 8px;
-    --padding-3: 12px;
-    --padding-4: 16px;
-    --padding-5: 20px;
-    --margin-1: 4px;
-    --margin-2: 8px;
-    --margin-3: 12px;
-    --margin-4: 16px;
-    --margin-5: 20px;
-}
-
-
 .navbar-items{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
     margin-top: 20px;
-    var(--primary)
 }
 
 .logo {
