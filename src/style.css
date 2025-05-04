@@ -41,13 +41,13 @@ header {
   margin: var(--margin-3);
   padding: var(--padding-3);
   display: flex;
-  width: clamp(100px, 15%, 200px);
+  width: clamp(200px, 50%, 300px);
+  height: fit-content;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .product > img {
-  max-height: 250px;
   width: 100%;
   object-fit: cover;
 }
