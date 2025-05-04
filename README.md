@@ -53,7 +53,7 @@ experience.
 
 ### Improve accessibility
 
-- [ ] Add meaningful alt attributes to images.
+- [x] Add meaningful alt attributes to images.
 
 - [ ] Ensure all interactive elements are keyboard accessible.
 
